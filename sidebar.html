@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="bal" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سَیدَگنج</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Noto Nastaliq Urdu", serif;
+        padding: 10px;
+        background-color: #f9f9f9;
+      }
+      #selected-word {
+        font-size: 22px;
+      }
+      #definition {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 id="selected-word"></h3>
+    <p id="definition"></p>
+    <script src="sidebar.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="bal" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Noto Nastaliq Urdu", serif;
+        margin: 0;
+        padding: 10px;
+      }
+      .container {
+        padding-bottom: 50px; /* Ensure content does not overlap with the fixed bar */
+      }
+      #selected-word {
+        font-size: 22px;
+      }
+      #definition {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .fixed-bar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #f8f9fa;
+        border-top: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .fixed-bar a {
+        text-decoration: none;
+        color: #007bff;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 id="selected-word"></h2>
+      <div id="definition"></div>
+    </div>
+
+    <div class="fixed-bar">
+      <a id="sayadganj-link" href="https://sayadganj.com" target="_blank"
+        >ویب سائیٹ ءَ پچ کن</a
+      >
+    </div>
+
+    <script src="sidebar.js"></script>
+  </body>
+</html>
